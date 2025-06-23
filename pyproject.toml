@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "End-to-end MLOps pipeline for vehicle insurance data"
+authors = [{name = "Syed Rehman", email = "contactsyed135@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
