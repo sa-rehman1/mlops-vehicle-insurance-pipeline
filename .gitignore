@@ -194,3 +194,5 @@ cython_debug/
 .cursorindexingignore
 test.txt
 notebook/mongoDB_demo.ipynb
+
+artifact/
